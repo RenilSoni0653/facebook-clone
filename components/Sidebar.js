@@ -18,7 +18,7 @@ const Sidebar = () => {
           width={40}
           className="rounded-full cursor-pointer"
         />
-        <p className="hidden sm:inline-flex font-medium">Renil Soni</p>
+        <p className="hidden sm:inline-flex font-medium">{ session?.user.name }</p>
     </div>
       <SidebarItem Icon={ImUsers} value="Friends" />
       <SidebarItem Icon={MdGroups} value="Groups" />
